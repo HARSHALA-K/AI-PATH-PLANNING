@@ -10,12 +10,14 @@ challenges such as:
 ● Level progression with increasing complexity.
 The game allows players to understand AI’s role in path planning through an engaging,
 visual medium.
+
 Implementation:
 ● Obstacle spawning ensures no overlap with each other or player’s start area.
 ● Goals placement avoids overlap with obstacles.
 ● The movement system is grid-free, giving smooth real-time control.
 ● Collision handling uses Pygame’s Rect class.
 ● Difficulty scaling: Each level spawns more obstacles and goals.
+
  Workflow of given project:
 ➢ Initialization: Create window, load fonts, set variables.
 ➢ Spawning: Randomly place obstacles and goals on the map without overlaps
@@ -26,11 +28,13 @@ Implementation:
 ➢ Level Progression: Once all goals are collected, spawn new obstacles and goals
 with higher difficulty.
 ➢ Display: Score, level, and messages (Game Over, Level Complete).
+
 Tools and Technologies used:
 ● Programming Language: Python 3
 ● Library: Pygame (for graphics, event handling, and game mechanics)
 ● IDE/Editor: Any Python-supported IDE (e.g., PyCharm, VS Code, IDLE)
 ● Platform: Desktop (Windows/Linux/Mac)
+
 Conclusion:
 The Pet Path Planner demonstrates essential AI principles of navigation, obstacle
 avoidance, and progressive difficulty. It serves as both an educational and recreational
